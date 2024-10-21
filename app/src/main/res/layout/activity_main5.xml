@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="316dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:text="Мои рецепты"
+        android:textColor="#03A9F4"
+        android:textColorLink="#03A9F4"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="307dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Здесь будут сохранённые рецепты"
+        android:textColorLink="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="156dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="228dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fsdf" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="156dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="444dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/f" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="156dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="444dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fsdfg" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="153dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Жаренные пельмени"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="153dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="28dp"
+        android:gravity="center"
+        android:text="Стрипсы из говядины"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="153dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Свинные стрипсы"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="153dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Стрипсы из утки"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toEndOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:onClick="NavigateTo7"
+        android:text="На главную"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.941"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="156dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="228dp"
+        android:onClick="NavigateTo8"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ffsd" />
+</androidx.constraintlayout.widget.ConstraintLayout>
